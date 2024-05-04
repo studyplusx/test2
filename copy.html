@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ブール代数の結果</title>
+    <style>
+        button {
+            margin-left: 10px;
+        }
+    </style>
+    <script>
+        function copyToClipboard(text) {
+            var dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = text;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+        }
+    </script>
+</head>
+<body>
+    <h1>ブール代数の結果</h1>
+    <ol>
+        <li>\(\bar{A}\cdot\bar{B}\cdot\bar{C}\cdot\bar{D}\)<br>$$\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot \overline{D}$$<button onclick="copyToClipboard('\(\bar{A}\cdot\bar{B}\cdot\bar{C}\cdot\bar{D}\)')">コピー</button></li>
+        <li>\(\bar{A}\cdot\bar{B}\cdot\bar{C}\cdot D\)<br>$$\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot D$$<button onclick="copyToClipboard('\(\bar{A}\cdot\bar{B}\cdot\bar{C}\cdot D\)')">コピー</button></li>
+        <li>\(\bar{A}\cdot\bar{B}\cdot C\cdot\bar{D}\)<br>$$\overline{A} \cdot \overline{B} \cdot C \cdot \overline{D}$$<button onclick="copyToClipboard('\(\bar{A}\cdot\bar{B}\cdot C\cdot\bar{D}\)')">コピー</button></li>
+        <li>\(\bar{A}\cdot\bar{B}\cdot C\cdot D\)<br>$$\overline{A} \cdot \overline{B} \cdot C \cdot D$$<button onclick="copyToClipboard('\(\bar{A}\cdot\bar{B}\cdot C\cdot D\)')">コピー</button></li>
+        <li>\(\bar{A}\cdot B\cdot\bar{C}\cdot\bar{D}\)<br>$$\overline{A} \cdot B \cdot \overline{C} \cdot \overline{D}$$<button onclick="copyToClipboard('\(\bar{A}\cdot B\cdot\bar{C}\cdot\bar{D}\)')">コピー</button></li>
+        <li>\(\bar{A}\cdot B\cdot\bar{C}\cdot D\)<br>$$\overline{A} \cdot B \cdot \overline{C} \cdot D$$<button onclick="copyToClipboard('\(\bar{A}\cdot B\cdot\bar{C}\cdot D\)')">コピー</button></li>
+        <li>\(\bar{A}\cdot B\cdot C\cdot\bar{D}\)<br>$$\overline{A} \cdot B \cdot C \cdot \overline{D}$$<button onclick="copyToClipboard('\(\bar{A}\cdot B\cdot C\cdot\bar{D}\)')">コピー</button></li>
+        <li>\(\bar{A}\cdot B\cdot C\cdot D\)<br>$$\overline{A} \cdot B \cdot C \cdot D$$<button onclick="copyToClipboard('\(\bar{A}\cdot B\cdot C\cdot D\)')">コピー</button></li>
+        <li>A\cdot\bar{B}\cdot\bar{C}\cdot\bar{D}<br>$$A \cdot \overline{B} \cdot \overline{C} \cdot \overline{D}$$<button onclick="copyToClipboard('A\cdot\bar{B}\cdot\bar{C}\cdot\bar{D}')">コピー</button></li>
+        <li>A\cdot\bar{B}\cdot\bar{C}\cdot D<br>$$A \cdot \overline{B} \cdot \overline{C} \cdot D$$<button onclick="copyToClipboard('A\cdot\bar{B}\cdot\bar{C}\cdot D')">コピー</button></li>
+        <li>A\cdot\bar{B}\cdot C\cdot\bar{D}<br>$$A \cdot \overline{B} \cdot C \cdot \overline{D}$$<button onclick="copyToClipboard('A\cdot\bar{B}\cdot C\cdot\bar{D}')">コピー</button></li>
+        <li>A\cdot\bar{B}\cdot C\cdot D<br>$$A \cdot \overline{B} \cdot C \cdot D$$<button onclick="copyToClipboard('A\cdot\bar{B}\cdot C\cdot D')">コピー</button></li>
+        <li>A\cdot B\cdot\bar{C}\cdot\bar{D}<br>$$A \cdot B \cdot \overline{C} \cdot \overline{D}$$<button onclick="copyToClipboard('A\cdot B\cdot\bar{C}\cdot\bar{D}')">コピー</button></li>
+        <li>A\cdot B\cdot\bar{C}\cdot D<br>$$A \cdot B \cdot \overline{C} \cdot D$$<button onclick="copyToClipboard('A\cdot B\cdot\bar{C}\cdot D')">コピー</button></li>
+        <li>A\cdot B\cdot C\cdot\bar{D}<br>$$A \cdot B \cdot C \cdot \overline{D}$$<button onclick="copyToClipboard('A\cdot B\cdot C\cdot\bar{D}')">コピー</button></li>
+        <li>A\cdot B\cdot C\cdot D<br>$$A \cdot B \cdot C \cdot D$$<button onclick="copyToClipboard('A\cdot B\cdot C\cdot D')">コピー</button></li>
+    </ol>
+</body>
+</html>
